@@ -2,7 +2,7 @@
 
 ### Nomes e RM:
 - Matheus Taylor, RM556211
-- Henrique Maldonado, Rm557270
+- Henrique Maldonado, RM557270
 
 # Descrição do Projeto
  A Plataforma de Upskilling/Reskilling 2030+ é uma API RESTful desenvolvida em Java com Spring Boot que visa preparar profissionais para os desafios do futuro do trabalho. Em um cenário onde tecnologias como IA, automação e análise de dados estão transformando o mercado, nossa plataforma oferece trilhas de aprendizagem focadas nas competências essenciais para as carreiras de 2030 e além.
