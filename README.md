@@ -8,6 +8,11 @@
  A Plataforma de Upskilling/Reskilling 2030+ é uma API RESTful desenvolvida em Java com Spring Boot que visa preparar profissionais para os desafios do futuro do trabalho. Em um cenário onde tecnologias como IA, automação e análise de dados estão transformando o mercado, nossa plataforma oferece trilhas de aprendizagem focadas nas competências essenciais para as carreiras de 2030 e além.
  Este projeto foi desenvolvido como parte da Global Solution 2025 - O Futuro do Trabalho, alinhando-se com os Objetivos de Desenvolvimento Sustentável (ODS) da ONU, especialmente os ODS 4 (Educação de Qualidade), 8 (Trabalho Decente e Crescimento Econômico), 9 (Indústria, Inovação e Infraestrutura) e 10 (Redução das Desigualdades).
 
+# Objetivos
+- Reskilling: Requalificar profissionais cujas atividades estão em risco de automação
+- Upskilling: Oferecer aperfeiçoamento contínuo para acompanhar as novas demandas do mercado
+- Educação Permanente: Conectar profissionais às competências do futuro (tanto tecnológicas quanto humanas)
+
 # Funcionalidades Principais
 ## CRUD Completo de Usuários
 - Cadastro de profissionais na plataforma
