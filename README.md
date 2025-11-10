@@ -63,3 +63,27 @@
   - JDBC URL: jdbc:h2:mem:testdb
   - User: sa
   - Password: (vazio)
+
+# Endpoints da API
+
+## Usuários (/usuarios):
+| Método | Endpoint | Descrição |
+|------------|---------|------------|
+| GET | /usuarios | Lista todos os usuários |
+| GET | /usuarios/{id} | Busca usuário por ID |
+| POST | /usuarios | Cria novo usuário |
+| PUT | /usuarios/{id} | Atualiza usuário existente |
+| DELETE | /usuarios/{id} | Remove usuário |
+
+## Trilhas (/trilhas):
+| Método | Endpoint | Descrição |
+|------------|---------|------------|
+| GET | /trilhas | Lista todos os usuários |
+| GET | /trilhas/{id} | Busca trilha por ID |
+| GET | /trilhas/nivel/{nivel} | Busca trilhas por nível |
+| POST | /trilhas | Cria nova trilha |
+| PUT | /trilhas/{id} | Atualiza trilha existente |
+| DELETE | /trilhas/{id} | Remove trilha |
+
+
+
