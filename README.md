@@ -85,15 +85,35 @@
 | PUT | /trilhas/{id} | Atualiza trilha existente |
 | DELETE | /trilhas/{id} | Remove trilha |
 
-# Exemplo de Uso
+# **Estrutura do Projeto**:
+   ```text
+   src/
+├── main/
+│   ├── java/com/upskilling/platform/
+│   │   ├── controller/
+│   │   │   ├── UsuarioController.java
+│   │   │   └── TrilhaController.java
+│   │   ├── service/
+│   │   │   ├── UsuarioService.java
+│   │   │   └── TrilhaService.java
+│   │   ├── repository/
+│   │   │   ├── UsuarioRepository.java
+│   │   │   └── TrilhaRepository.java
+│   │   ├── model/
+│   │   │   ├── Usuario.java
+│   │   │   └── Trilha.java
+│   │   ├── dto/
+│   │   │   └── UsuarioRequest.java
+│   │   └── exception/
+│   │       ├── UsuarioNaoEncontradoException.java
+│   │       ├── TrilhaNaoEncontradaException.java
+│   │       └── GlobalExceptionHandler.java
+│   └── resources/
+│       ├── application.properties
+│       ├── schema.sql
+│       └── data.sql
+├── pom.xml
+└── README.md
 
-## **Criar um usuário**:
-   ```bash
-   curl -X POST http://localhost:8080/usuarios \
-  -H "Content-Type: application/json" \
-  -d '{
-    "nome": "Carlos Oliveira",
-    "email": "carlos.oliveira@email.com",
-    "areaAtuacao": "Tecnologia",
-    "nivelCarreira": "Pleno"
-  }'
+
+
