@@ -58,8 +58,8 @@
    mvn spring-boot:run
 
 4. **Acesse a aplicação**:
-   API: http://localhost:8080
-   Console H2: http://localhost:8080/h2-console
-   JDBC URL: jdbc:h2:mem:testdb
-   User: sa
-   Password: (vazio)
+  -  API: http://localhost:8080
+  - Console H2: http://localhost:8080/h2-console
+  - JDBC URL: jdbc:h2:mem:testdb
+  - User: sa
+  - Password: (vazio)
