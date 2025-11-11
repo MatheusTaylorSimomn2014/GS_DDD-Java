@@ -1,4 +1,4 @@
-# Global Solution - Plataforma de Upskilling/Reskilling 2030+
+# Global Solution - Domain Driven Desgin Java: Plataforma de Upskilling/Reskilling 2030+
 
 ### Nomes e RM:
 - Matheus Taylor, RM556211
